@@ -22,6 +22,8 @@ export default function App() {
     //TODO: load init data
   }, []);
 
+  //TODO: xu ly luu ngay da xit
+
   const onConfirm = (day: DateData) => {
     consoleLog("onConfirm");
     Alert.alert(
